@@ -56,36 +56,15 @@ h1{
 	font-weight: 600;
 }
 
-.display-box{
-	height: 500px;
-	width: 100%;
-	background-image: url("../img/display-box.jpg");
-	background-size: cover;
-}
-
 .divider{
-	height: 50px;
+	height: 40px;
 	width: 100%;
 	background-color: #eee;
 	border-bottom: solid 4px #aaa;
 }
 
-.description{
-	height: auto;
+footer{
+	background-color: #eee;
+	height: 60px;
 	width: 100%;
-	background-color: rgba(80,0,0,1);
-}
-
-.description img{
-	width: 30%;
-	height: auto;
-	margin: 5%;
-	border: solid 4px #fff;
-}
-
-.description-info{
-	float: right;
-	width: 50%;
-	height: 95%;
-	background-color: rgba(255,255,255, 0.5);
 }
