@@ -1,5 +1,4 @@
 html{
-	overflow: hidden;
 	margin: 0;
 	padding: 0;
 }
@@ -10,14 +9,28 @@ body{
 	padding: 0;
 }
 
-.nav{
-	background-color: #333;
+header{
+	background-color: #eee;
 	height: 60px;
 	position: fixed;
 	width: 100%;
 }
 
-.list{
+h1{
+	margin: 0;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: Bold;
+	font-size: 40px;
+	margin-left: 10px;
+}
+
+.title{
+	color: #500000
+}
+
+.nav{
+	margin-top: 4px;
 	float: right;
 }
 
@@ -30,13 +43,49 @@ body{
 .nav a{
 	margin: 0;
 	margin-right: 10px;
-	color: #fff;
+	color: #555;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 2rem;
+	font-weight: 400;
+	font-size: 32px;
 	text-decoration: none;
 }
 
 .nav a:hover{
-	color: #ccc;
+	color: #500000;
 	cursor: pointer;
+	font-weight: 600;
+}
+
+.display-box{
+	height: 500px;
+	width: 100%;
+	background-image: url("../img/display-box.jpg");
+	background-size: cover;
+}
+
+.divider{
+	height: 50px;
+	width: 100%;
+	background-color: #eee;
+	border-bottom: solid 4px #aaa;
+}
+
+.description{
+	height: auto;
+	width: 100%;
+	background-color: rgba(80,0,0,1);
+}
+
+.description img{
+	width: 30%;
+	height: auto;
+	margin: 5%;
+	border: solid 4px #fff;
+}
+
+.description-info{
+	float: right;
+	width: 50%;
+	height: 95%;
+	background-color: rgba(255,255,255, 0.5);
 }
