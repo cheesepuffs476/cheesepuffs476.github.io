@@ -1,12 +1,20 @@
+/* Colors for stuff
+	Maroon: #500000
+	White: #eee
+	Grey: #ddd
+*/
+
 html{
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 body{
 	background-color: #ddd;
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 header{
