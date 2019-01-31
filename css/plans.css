@@ -48,10 +48,10 @@ table#plan3 tr:nth-child(even){
 	background-color: #bbb;
 }
 
-.plans img{
+.plans-img{
 	margin: 2%;
-	width: 30%;
-	height: auto;
+	width: 90%;
+	height: 60%;
 	border: solid 4px #fff;
 	display: inline-block;
 }
