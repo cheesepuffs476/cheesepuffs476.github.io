@@ -47,3 +47,11 @@ table#plan2 tr:nth-child(even){
 table#plan3 tr:nth-child(even){
 	background-color: #bbb;
 }
+
+.plans img{
+	margin: 2%;
+	width: 30%;
+	height: auto;
+	border: solid 4px #fff;
+	display: inline-block;
+}
