@@ -2,8 +2,13 @@
     position: relative;
 }
 
+h1{
+  color: red;
+}
+
 h2{
   margin: 0px;
+  font-weight: bold;
 }
 
 .intro-type .container {
