@@ -29,7 +29,7 @@ table{
 }
 
 table th{
-	background-color: #40ef40;
+	background-color: #408DEF;
 }
 
 table#plan1{
@@ -46,4 +46,12 @@ table#plan2 tr:nth-child(even){
 
 table#plan3 tr:nth-child(even){
 	background-color: #bbb;
+}
+
+.plans-img{
+	margin: 2%;
+	width: 90%;
+	height: 60%;
+	border: solid 4px #fff;
+	display: inline-block;
 }

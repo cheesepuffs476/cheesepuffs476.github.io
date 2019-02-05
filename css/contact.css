@@ -74,7 +74,8 @@ table{
 }
 
 table th{
-	background-color: #408DEF;
+    background-color: #408DEF;
+    text-align: left;
 }
 
 table#plan1{
